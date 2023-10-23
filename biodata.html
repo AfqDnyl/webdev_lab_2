@@ -1,102 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table Example</title>
     <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            margin: 20px auto;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
-        .photo-cell {
-            text-align: center;
-        }
-        .first-column {
-            width: 150px;
-        }
-        .second-column {
-            width: 100px;
-        }
-        .long-input {
-            width: 300px;
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
         }
     </style>
 </head>
 <body>
-    <h1>MY BIODATA</h1>
-    <table>
+    <h1>My Personal Details</h1>
+    <table >
         <tr>
-            <td class="first-column">Name</td>
-            <td style="width:250px">Muhammad Afiq Danial bin Basri</td>
-            <td rowspan="4"> 
-                <img src="./gambar.jpg" width="10">
+            <td style="width:170px">Name</strong></td>
+            <td >Muhammad Afiq Danial bin Basri</td>
+            <td>
+                <img src="./gambar.png" width="100">
             </td>
         </tr>
         <tr>
-            <td>Date of Birth</td>
-            <td>4/3/2002</td>
+            <td>Date of Birth</th>
+            <td colspan="2">4/3/2002</td>
         </tr>
         <tr>
-        <td>Religion</td>
-            <td>Islam</td>
+            <td>Religion</td>
+            <td colspan="2">Islam</td>
         </tr>
         <tr>
             <td>Race</td>
-            <td>Malay</td>
+            <td colspan="2">Melayu</td>
         </tr>
         <tr>
             <td rowspan="4">Address</td>
-        	<td class="second-column">Street</td>
-            <td>No 551, JLN PCH 14, PERDANA COLLEGE HEIGHT</td>
+            <td style="width: 170px;">
+                Street
+            </td>
+            <td style="width: 170px;">No 551, JLN PCH 14, PERDANA COLLEGE HEIGHTS</td>
+            </tr>
+            <td>
+                Town
+            </td><td>MANTIN</td>
+        </tr>
+            <td>
+                District
+            </td><td>SEREMBAN</td></tr>
+            <td>
+                State
+            </td><td>NEGERIM SEMBILAN</td></tr>
         </tr>
         <tr>
-        	<td>Town</td>
-            <td>MANTIN</td>
-        </tr>
-        <tr>
-        	<td>District</td>
-            <td>Seremban</td>
-        </tr>
-        <tr>
-        	<td>State</td>
-            <td>NEGERI SEMBILAN</td>
-        </tr>
-        <tr>
-            <td rowspan="3">Contact</td>
-        	<td>Mobile Phone</td>
+            <tdrowspan="3">Contact</td>
+            <td>
+                Mobile Phone
+            </td>
             <td>019-2512511</td>
+            </tr>
+            <td>
+                Social Media
+            </td><td>@sayadanny.- on TikTok</td>
         </tr>
-        <tr>
-        	<td>Social Media</td>
-            <td>@sayadanny._ on tiktok</td>
-        </tr>
-        <tr>
-        	<td>Website</td>
-            <td>Afiq.com</td>
-        </tr>
-        <tr>
-            <td>Course and Institution</td>
-            <td colspan="2">SOFTWARE ENGINEER (UTHM)</td>
-        </tr>
-        <tr>
-            <td>Programming skills</td>
-            <td colspan="2">C, JAVA, C#, HTML</td>
-        </tr>
-        <tr>
-            <td>Personal Interest</td>
-            <td colspan="2">Coding</td>
-        </tr>
-        <tr>
-            <td>Future plan in 2024</td>
-            <td colspan="2">Make an application</td>
-        </tr>
+            <td>
+                Website
+            </td><td>Afiq.com.my</td></tr>
+            <tr>
+                <td>Course and Instituition</th>
+                <td colspan="2">SOFTWARE ENGINEER (UTHM)</td>
+            </tr>
+            <tr>
+                <td><strong>Programming skills</th>
+                <td colspan="2">C, C#, JAVA, HTML</td>
+            </tr>
+            <tr>
+                <td >Personal Interest</th>
+                <td colspan="2">Game</td>
+            </tr>
+            <tr>
+                <td >Future plan of 2024</th>
+                <td colspan="2">Finish PSM</td>
+            </tr>
+            
     </table>
-</body>
-</html>
+    </body>
+    </html>
