@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        .photo-cell {
+            text-align: center;
+        }
+        .first-column {
+            width: 150px;
+        }
+        .second-column {
+            width: 100px;
+        }
+        .long-input {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sample Table</h1>
+    <table>
+        <tr>
+            <td class="first-column">Name</td>
+            <td colspan="2"><input type="text" class="long-input" placeholder="Your Name"></td>
+            <td rowspan="4" class="photo-cell">Photo</td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+        <td>Religion</td>
+        	<td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>Race</td>
+        	<td colspan="2"></td>
+        </tr>
+        <tr>
+            <td rowspan="4">Address</td>
+        	<td class="second-column">Street</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+        	<td>Town</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+        	<td>District</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+        	<td>State</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td rowspan="3">Contact</td>
+        	<td>Mobile Phone</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+        	<td>Social Media</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+        	<td>Website</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>Course and Institution</td>
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td>Programming skills</td>
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td>Personal Interest</td>
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td>Future plan in 2024</td>
+            <td colspan="3"></td>
+        </tr>
+    </table>
+</body>
+</html>
